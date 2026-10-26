@@ -1,0 +1,43 @@
+# JavaScript / Next.js
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.pnpm-store/
+
+# Rust / Tauri build output
+target/
+src-tauri/target/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+*.pem
+
+# Runtime and temporary artifacts
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+/tmp/
+/work/
+/test-results/
+/playwright-report/
+/.local-test/
+/src-tauri/gen/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep package/Cargo lockfiles tracked when tooling is introduced.

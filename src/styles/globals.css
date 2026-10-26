@@ -1,0 +1,6 @@
+/* Global stylesheet entry: theme, shared layers, then generated utilities. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source("../");
+@import "./tokens.css";
+@import "./tailwind-theme.css";
