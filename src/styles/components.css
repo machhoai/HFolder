@@ -187,11 +187,11 @@
     .sidebar {
         @apply flex w-[230px] shrink-0 flex-col bg-sidebar;
         border-right: 1px solid var(--border);
-        padding: 17px 11px 12px;
+        padding: 10px 11px 12px;
     }
 
     .sidebar-heading {
-        @apply mb-2 flex items-center justify-between pl-3 text-[10px] font-[650] text-muted uppercase;
+        @apply mb-1 flex items-center justify-between pl-3 text-[12px] font-[650] text-muted;
         letter-spacing: 1.25px;
     }
 
@@ -444,9 +444,9 @@
     }
 
     .toolbar {
-        @apply flex h-[62px] shrink-0 items-center gap-3;
+        @apply flex shrink-0 items-center gap-3;
         border-bottom: 1px solid var(--border);
-        padding: 10px 23px;
+        padding: 6px 6px;
     }
 
     .toolbar .button {
@@ -465,8 +465,7 @@
     }
 
     .view-toggle {
-        @apply ml-auto flex bg-subtle p-[2px];
-        border: 1px solid var(--border);
+        @apply ml-auto flex p-[2px];
         border-radius: 6px;
     }
 

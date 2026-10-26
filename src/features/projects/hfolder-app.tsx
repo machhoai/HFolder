@@ -498,7 +498,7 @@ export function HFolderApp() {
                     ) : null}
                     {view ? (
                         <>
-                            <div className="sidebar-heading tree-heading mt-7">
+                            <div className="sidebar-heading tree-heading">
                                 <span>{t("folders")}</span>
                             </div>
                             <nav aria-label={t("folders")} className="folder-tree">
